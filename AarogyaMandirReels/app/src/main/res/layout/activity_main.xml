@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="@color/bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🌿 Aarogya Mandir Reels"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_green"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="बोला, आणि Reel आपोआप तयार होईल"
+        android:textSize="14sp"
+        android:textColor="#2D3731"
+        android:layout_marginBottom="48dp"/>
+
+    <Button
+        android:id="@+id/btnTagImages"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="1. Images Tag करा"
+        android:textSize="16sp"
+        android:backgroundTint="@color/primary_green"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnRecord"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="2. Record करा"
+        android:textSize="16sp"
+        android:backgroundTint="@color/dark_green"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Tip: आधी Step 1 मध्ये तुमच्या Workout Images ला keyword tag करा (उदा: jumping jacks, squat). मग Step 2 मध्ये बोलायला सुरुवात करा — योग्य keyword ऐकल्यावर Image आपोआप बदलेल."
+        android:textSize="12sp"
+        android:textColor="#78827C"
+        android:gravity="center"/>
+
+</LinearLayout>
